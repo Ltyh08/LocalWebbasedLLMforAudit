@@ -1,0 +1,47 @@
+streamlit run app.py
+start server for model chaching:
+uvicorn server:app --host 0.0.0.0 --port 8000 
+
+refresh code:
+uvicorn Server:app --reload
+
+
+installed
+pip install fastapi uvicorn
+pip install transformers
+pip install torch
+
+
+Longer: 
+C:\scoo\sem5\FYP\Sprint 2 Things\for Json file converter test\Audio 1\response_1718196754692.json 
+Shorter: 
+C:\scoo\sem5\FYP\Sprint 2 Things\for Json file converter test\response_1718197266734.json
+
+
+$env:CMAKE_ARGS="-DGGML_CUDA=on"
+$env:CUDACXX="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe"
+pip install llama-cpp-python[server] --upgrade --force-reinstall --no-cache-dir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
